@@ -11,7 +11,7 @@ class two_sum:
                 break
         if j >= 0:
             return [j, i]
-    
+
     if __name__ == "__main__":
         Res = twoSum([3, 3], 6)
         print(Res)
